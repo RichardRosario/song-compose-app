@@ -1,0 +1,16 @@
+label {
+  font-size: 1.5em;
+}
+
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+.material-icons:hover{
+  color: red;
+}
