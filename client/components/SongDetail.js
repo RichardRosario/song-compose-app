@@ -12,8 +12,13 @@ class SongDetail extends Component {
 
     return (
       <div>
-       <Link><button className="btn btn-primary">Back</button></Link>
-       <h4>{song.title}</h4>
+       <Link to="/"><button className="btn btn-primary">Back</button></Link>
+        <h4>{song.title}</h4>
+       <Link
+          to="/songs/new" 
+          className="btn-floating btn-large green right">
+          <i className="material-icons">add</i> 
+        </Link>
       </div>
     )
   }
