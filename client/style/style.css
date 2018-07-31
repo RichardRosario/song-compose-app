@@ -9,8 +9,14 @@ label {
 
 .material-icons {
   cursor: pointer;
+  margin-right: 5px;
 }
 
 .material-icons:hover{
   color: red;
+}
+
+.vote-box {
+  display: flex;
+  align-items: center;
 }
